@@ -1,6 +1,5 @@
-# https://jameswillett.dev/getting-started-with-material-for-mkdocs/
 site_name: Communication Engineering
-site_url: https://sitename.example
+site_url: https://github.com/gabcav/communications-engineering
 
 plugins:
   - search
@@ -92,5 +91,4 @@ extra:
     - icon: simple/linkedin
       link: https://www.linkedin.com/in/dr-gabriele-cavallaro/
 
-# copyright: Copyright &copy; 2024 James Willett
 
