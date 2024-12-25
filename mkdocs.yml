@@ -6,6 +6,7 @@ plugins:
   - tags:
      tags_file: tags.md
 
+
 # To define what files to include in the navigation
 nav:
    - Home: index.md
