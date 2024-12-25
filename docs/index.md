@@ -3,7 +3,7 @@ tags:
   - About
 ---
 
-# Welcome to RAF501G Communication Engineering
+# Welcome to Communication Engineering
 
 Telecommunication systems are everywhere in modern societies, and great progress has been made in the field of 
 telecommunications in recent years. The development is still going on and will be for coming years, both in terms 
@@ -29,9 +29,11 @@ At the end of this course, a student shall be able to:
 - help solving telecommunication problems in the industry
 - conduct further studies in telecommunications
 
-## Weekly Schedule - Year 2025 (Greenwich Mean Time)
+## Weekly Schedule 
 
-| Week | Date                      | Time Slot       | Notes |
+This is the schedule for the course RAF501G
+
+| Week | Date                      | Time Slot (Greenwich Mean Time)      | Notes |
 |------|---------------------------|-----------------|-------|
 | **1** | Monday, 18 August         | 10:00 - 12:20  |       |
 |      | Thursday, 21 August       | 08:20 - 09:50  |       |
