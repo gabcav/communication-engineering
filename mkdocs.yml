@@ -1,0 +1,96 @@
+# https://jameswillett.dev/getting-started-with-material-for-mkdocs/
+site_name: Communication Engineering
+site_url: https://sitename.example
+
+plugins:
+  - search
+  - tags:
+     tags_file: tags.md
+
+# To define what files to include in the navigation
+nav:
+   - Home: index.md
+   - Introduction to Communication Engineering: chapters/introduction_to_communication_engineering/lecture.md
+   - Signals and Systems Background: chapters/signals_and_systems_background/lecture.md
+   - Linear Modulations: chapters/linear_modulations/lecture.md
+   - Tags: tags.md
+#  - Slides: slides.md
+
+
+theme:
+  name: material
+  font: 
+    text: Inter
+    code: Red Hat Mono
+  logo: assets/gc_icon.svg
+  favicon: assets/gc_icon.svg
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections 
+    #- navigation.instant.preview
+    #- navigation.tracking I
+    #- navigation.tabs
+    - navigation.top 
+    - search.suggest
+    - search.highlight
+    #- search.share
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange 
+
+extra_javascript:
+  #- https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js
+  #- https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+        custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra_css:
+  - styles.css
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com/@TheAmmiraglio625
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/dr-gabriele-cavallaro/
+
+# copyright: Copyright &copy; 2024 James Willett
+
