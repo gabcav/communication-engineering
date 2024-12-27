@@ -1,12 +1,16 @@
 site_name: Communication Engineering
 site_url: https://communication-engineering
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+  - overrides/mathjax-init.js 
+
 plugins:
   - search
+  - macros
   - tags:
      tags_file: tags.md
   - blog
-
 
 # To define what files to include in the navigation
 nav:
@@ -17,7 +21,6 @@ nav:
    - Tags: tags.md
    - Blog: blog/index.md 
 #  - Slides: slides.md
-
 
 theme:
   name: material
@@ -47,7 +50,6 @@ theme:
         #icon: material/weather-sunny  Button for switch to light mode
         #name: Dark mode
 
-
     # Light Mode
     - scheme: default
       toggle:
@@ -55,13 +57,6 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange 
-
-extra_javascript:
-  #- https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js
-  #- https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js
-
 
 markdown_extensions:
   - attr_list
@@ -79,7 +74,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.arithmatex
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
@@ -94,5 +88,3 @@ extra:
       link: https://www.youtube.com/@TheAmmiraglio625
     - icon: simple/linkedin
       link: https://www.linkedin.com/in/dr-gabriele-cavallaro/
-
-
