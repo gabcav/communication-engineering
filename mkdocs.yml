@@ -1,10 +1,11 @@
 site_name: Communication Engineering
-site_url: https://github.com/gabcav/communications-engineering
+site_url: https://communication-engineering
 
 plugins:
   - search
   - tags:
      tags_file: tags.md
+  - blog
 
 
 # To define what files to include in the navigation
@@ -14,13 +15,14 @@ nav:
    - Signals and Systems Background: chapters/signals_and_systems_background/lecture.md
    - Linear Modulations: chapters/linear_modulations/lecture.md
    - Tags: tags.md
+   - Blog: blog/index.md 
 #  - Slides: slides.md
 
 
 theme:
   name: material
   font: 
-    text: Inter
+    text: Libre Franklin
     code: Red Hat Mono
   logo: assets/gc_icon.svg
   favicon: assets/gc_icon.svg
@@ -37,13 +39,14 @@ theme:
     - search.highlight
     #- search.share
   palette:
-    # Dark Mode
-    - scheme: slate
+    - scheme: slate # Dark Mode
+      #primary: green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
-      accent: deep purple
+
 
     # Light Mode
     - scheme: default
@@ -83,7 +86,7 @@ markdown_extensions:
   - pymdownx.details
 
 extra_css:
-  - styles.css
+  - stylesheets/extra.css
 
 extra:
   social:
