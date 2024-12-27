@@ -65,14 +65,6 @@ This is the schedule for the course RAF501G
 |      | Thursday, 20 November     | 08:20 - 09:50  |       |
 
 
-## System
-
-
-$$\mathcal{H} = \mathcal{H}[\cdot]$$
-
-$$y(t) = \mathcal{H}[x(t)]$$
-
-$$x^2$$
 
 
 
