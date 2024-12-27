@@ -44,8 +44,8 @@ theme:
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
+        #icon: material/weather-sunny  Button for switch to light mode
+        #name: Dark mode
 
 
     # Light Mode
