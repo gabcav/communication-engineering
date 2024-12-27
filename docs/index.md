@@ -65,7 +65,12 @@ This is the schedule for the course RAF501G
 |      | Thursday, 20 November     | 08:20 - 09:50  |       |
 
 
+## System
 
+A system is any process that produces an output signal in response to an input signal.
+
+A system is characterized by its input-output relationship $\mathcal{H} = \mathcal{H}[\cdot]$. 
+This implies $y(t) = \mathcal{H}[x(t)]$.
 
 
 

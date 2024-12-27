@@ -4,6 +4,22 @@ body {
   color: #ffffff !important; /* General text color */
 }
 
+/* Target H1 only on the homepage */
+.md-typeset h1:first-of-type {
+  color: #ffffff !important; /* Change to your desired color */
+  /*font-weight: bold;  Optional: make it bold */
+}
+
+/* Hide the title in the left navigation */
+.md-sidebar--primary .md-nav__title {
+  display: none !important;
+}
+
+/* Hide the Table of Contents */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
 :root {
     /* Primary Colors */
     --md-primary-fg-color:        #0D222D; /* Color of the main top bar */
