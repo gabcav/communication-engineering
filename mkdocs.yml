@@ -7,7 +7,6 @@ extra_javascript:
 
 plugins:
   - search
-  - macros
   - tags:
      tags_file: tags.md
   - blog
