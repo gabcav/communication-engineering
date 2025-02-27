@@ -6,19 +6,33 @@ extra_javascript:
   - overrides/mathjax-init.js 
 
 plugins:
-  - search
+  - search 
   - tags:
      tags_file: tags.md
-  - blog
+  #- blog
+  - blog:
+      categories: true  # Enable categories
+      archive: true     # Enable archive
+
 
 # To define what files to include in the navigation
 nav:
    - Home: index.md
+   - Programme: chapters/programme/index.md
    - Introduction to Communication Engineering: chapters/introduction_to_communication_engineering/lecture.md
    - Signals and Systems Background: chapters/signals_and_systems_background/lecture.md
    - Linear Modulations: chapters/linear_modulations/lecture.md
+   - Noise in Modulations: chapters/noise_in_modulations/lecture.md
+   - Signals Sampling: chapters/signals_sampling/lecture.md
+   - Pulse Code Modulation: chapters/pulse_code_modulation/lecture.md
+   - Baseband Digital Transmission: chapters/baseband_digital_transmission/lecture.md
+   - Multiplexing Systems: chapters/multiplexing_systems/lecture.md
+   - Digital Modulations: chapters/digital_modulations/lecture.md  
+   - Exercises: chapters/exercises/analog_communication/filters_and_energy/lecture.md
    - Tags: tags.md
-   - Blog: blog/index.md 
+   - Blog:
+      - blog/index.md
+   - Projects: chapters/projects/projects.md 
 #  - Slides: slides.md
 
 theme:
